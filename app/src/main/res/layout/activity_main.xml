@@ -18,7 +18,7 @@
             android:id="@+id/udalogo"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/udacity_mark"
             android:scaleType="centerCrop"
             android:adjustViewBounds="true"
@@ -39,7 +39,7 @@
     <ImageView
         android:id="@+id/pic1"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="260dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:layout_weight="4"
@@ -47,14 +47,12 @@
         />
 
 
-
     <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_weight="1"
-        >
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="match_parent"
@@ -68,13 +66,14 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="20sp"
-            android:layout_margin="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30sp"
             android:layout_weight="1"
             android:autoLink="phone"
+            android:textColorLink="@android:color/white"
             android:text="@string/cell"
-            android:textAppearance="@style/cell"
-            />
+            android:textAppearance="@style/cell" />
 
 
     </LinearLayout>
@@ -99,6 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="40sp"
             android:layout_margin="20sp"
+            android:autoLink="web"
+            android:textColorLink="@android:color/white"
             android:layout_weight="1"
             android:text="@string/url"
             android:textAppearance="@style/url"
@@ -124,6 +125,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="100sp"
+            android:layout_margin="20dp"
             android:layout_weight="1"
             android:textAppearance="@style/address"
             android:text="@string/address" />

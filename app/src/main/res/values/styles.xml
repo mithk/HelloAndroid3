@@ -21,7 +21,7 @@
     <style name="cell" parent="android:TextAppearance">
         <item name="android:fontFamily">casual</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColorLink">@android:color/white</item>
+        <item name="android:textSize">14dp</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 
@@ -29,7 +29,7 @@
         <item name="android:autoLink">web</item>
         <item name="android:fontFamily">casual</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColorLink">@android:color/white</item>
+        <item name="android:textSize">14dp</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 
