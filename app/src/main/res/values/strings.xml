@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+
+    <string name="uda">U D A C I T Y
+    </string>
+    <string name="cell">650-555-5555</string>
+
+    <string name="url">www.udacity.com</string>
+
+    <string name="address">Udacity, 2465 Latham St, Mountain View, CA 94043"</string>
+</resources>
