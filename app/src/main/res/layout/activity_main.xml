@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".5">
+
+        <ImageView
+            android:id="@+id/udalogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:src="@drawable/udacity_mark"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/uda"
+            android:textAppearance="@style/uda"
+            />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_weight="4"
+        android:src="@drawable/nd"
+        />
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/call"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:text="@string/cell"
+            android:textAppearance="@style/cell"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/chrome"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:text="@string/url"
+            android:textAppearance="@style/url"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/loc"
+
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:textAppearance="@style/address"
+            android:text="@string/address" />
+    </LinearLayout>
+
+</LinearLayout>
+
